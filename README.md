@@ -23,13 +23,14 @@ The application will start running at http://localhost:8080.
 Usage:
 To test the application, you can use a web browser or a tool like Postman to make HTTP requests to the following endpoints:
 
+Movies
 GET /api/v1/movies: Retrieve all movies in the database.
 GET /api/v1/movies/{id}: Retrieve a movie with the specified ID.
 POST /api/v1/movies: Create a new movie with the specified details.
 PUT /api/v1//movies/{id}: Update an existing movie with the specified ID.
 DELETE /api/v1/movies/{id}: Delete a movie with the specified ID.
 
-
+Reviews
 GET /api/v1/reviews: Retrieve all movies in the database.
 GET /api/v1/reviews/{id}: Retrieve a movie with the specified ID.
 POST /api/v1/reviews: Create a new movie with the specified details.
